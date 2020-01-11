@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAA06E0A23A2663A00E1D6CE /* beep3_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0523A2663A00E1D6CE /* beep3_big.wav */; };
-		BAA06E0B23A2663A00E1D6CE /* beep4_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0623A2663A00E1D6CE /* beep4_big.wav */; };
-		BAA06E0C23A2663A00E1D6CE /* beepex_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0723A2663A00E1D6CE /* beepex_big.wav */; };
-		BAA06E0D23A2663A00E1D6CE /* beep5_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0823A2663A00E1D6CE /* beep5_big.wav */; };
-		BAA06E0E23A2663A00E1D6CE /* beep2_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0923A2663A00E1D6CE /* beep2_big.wav */; };
+		BA8F95E823C9B3F100915A9E /* beep3_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA8F95E323C9B3F100915A9E /* beep3_big.wav */; };
+		BA8F95E923C9B3F100915A9E /* beepex_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA8F95E423C9B3F100915A9E /* beepex_big.wav */; };
+		BA8F95EA23C9B3F100915A9E /* beep2_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA8F95E523C9B3F100915A9E /* beep2_big.wav */; };
+		BA8F95EB23C9B3F100915A9E /* beep4_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA8F95E623C9B3F100915A9E /* beep4_big.wav */; };
+		BA8F95EC23C9B3F100915A9E /* beep5_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA8F95E723C9B3F100915A9E /* beep5_big.wav */; };
 		BAAB885923646A7300A4E535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB885823646A7300A4E535 /* AppDelegate.swift */; };
 		BAAB885B23646A7300A4E535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB885A23646A7300A4E535 /* ViewController.swift */; };
 		BAAB885E23646A7300A4E535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB885C23646A7300A4E535 /* Main.storyboard */; };
@@ -41,11 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BAA06E0523A2663A00E1D6CE /* beep3_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep3_big.wav; path = ../../se/beep3_big.wav; sourceTree = "<group>"; };
-		BAA06E0623A2663A00E1D6CE /* beep4_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep4_big.wav; path = ../../se/beep4_big.wav; sourceTree = "<group>"; };
-		BAA06E0723A2663A00E1D6CE /* beepex_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beepex_big.wav; path = ../../se/beepex_big.wav; sourceTree = "<group>"; };
-		BAA06E0823A2663A00E1D6CE /* beep5_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep5_big.wav; path = ../../se/beep5_big.wav; sourceTree = "<group>"; };
-		BAA06E0923A2663A00E1D6CE /* beep2_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep2_big.wav; path = ../../se/beep2_big.wav; sourceTree = "<group>"; };
+		BA8F95E323C9B3F100915A9E /* beep3_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep3_big.wav; sourceTree = "<group>"; };
+		BA8F95E423C9B3F100915A9E /* beepex_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beepex_big.wav; sourceTree = "<group>"; };
+		BA8F95E523C9B3F100915A9E /* beep2_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep2_big.wav; sourceTree = "<group>"; };
+		BA8F95E623C9B3F100915A9E /* beep4_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep4_big.wav; sourceTree = "<group>"; };
+		BA8F95E723C9B3F100915A9E /* beep5_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep5_big.wav; sourceTree = "<group>"; };
 		BAAB885523646A7300A4E535 /* BeaconSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAB885823646A7300A4E535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAB885A23646A7300A4E535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,11 +111,11 @@
 		BAAB885723646A7300A4E535 /* BeaconSystem */ = {
 			isa = PBXGroup;
 			children = (
-				BAA06E0923A2663A00E1D6CE /* beep2_big.wav */,
-				BAA06E0523A2663A00E1D6CE /* beep3_big.wav */,
-				BAA06E0623A2663A00E1D6CE /* beep4_big.wav */,
-				BAA06E0823A2663A00E1D6CE /* beep5_big.wav */,
-				BAA06E0723A2663A00E1D6CE /* beepex_big.wav */,
+				BA8F95E523C9B3F100915A9E /* beep2_big.wav */,
+				BA8F95E323C9B3F100915A9E /* beep3_big.wav */,
+				BA8F95E623C9B3F100915A9E /* beep4_big.wav */,
+				BA8F95E723C9B3F100915A9E /* beep5_big.wav */,
+				BA8F95E423C9B3F100915A9E /* beepex_big.wav */,
 				BAAB885823646A7300A4E535 /* AppDelegate.swift */,
 				BAAB885A23646A7300A4E535 /* ViewController.swift */,
 				BAAB885C23646A7300A4E535 /* Main.storyboard */,
@@ -250,16 +250,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA06E0E23A2663A00E1D6CE /* beep2_big.wav in Resources */,
-				BAA06E0D23A2663A00E1D6CE /* beep5_big.wav in Resources */,
-				BAA06E0C23A2663A00E1D6CE /* beepex_big.wav in Resources */,
+				BA8F95EA23C9B3F100915A9E /* beep2_big.wav in Resources */,
+				BA8F95EC23C9B3F100915A9E /* beep5_big.wav in Resources */,
+				BA8F95EB23C9B3F100915A9E /* beep4_big.wav in Resources */,
 				BAAB886323646A7700A4E535 /* LaunchScreen.storyboard in Resources */,
 				BAEB5E1923A76514006A583E /* data.txt in Resources */,
-				BAA06E0A23A2663A00E1D6CE /* beep3_big.wav in Resources */,
-				BAA06E0B23A2663A00E1D6CE /* beep4_big.wav in Resources */,
 				BAAB886023646A7700A4E535 /* Assets.xcassets in Resources */,
+				BA8F95E923C9B3F100915A9E /* beepex_big.wav in Resources */,
 				BAAB885E23646A7300A4E535 /* Main.storyboard in Resources */,
 				BAEB5E1723A763DE006A583E /* data.csv in Resources */,
+				BA8F95E823C9B3F100915A9E /* beep3_big.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
