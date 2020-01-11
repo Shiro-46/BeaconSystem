@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAA06E0A23A2663A00E1D6CE /* beep3_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0523A2663A00E1D6CE /* beep3_big.wav */; };
+		BAA06E0B23A2663A00E1D6CE /* beep4_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0623A2663A00E1D6CE /* beep4_big.wav */; };
+		BAA06E0C23A2663A00E1D6CE /* beepex_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0723A2663A00E1D6CE /* beepex_big.wav */; };
+		BAA06E0D23A2663A00E1D6CE /* beep5_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0823A2663A00E1D6CE /* beep5_big.wav */; };
+		BAA06E0E23A2663A00E1D6CE /* beep2_big.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAA06E0923A2663A00E1D6CE /* beep2_big.wav */; };
+		BAAB885923646A7300A4E535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB885823646A7300A4E535 /* AppDelegate.swift */; };
+		BAAB885B23646A7300A4E535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB885A23646A7300A4E535 /* ViewController.swift */; };
+		BAAB885E23646A7300A4E535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB885C23646A7300A4E535 /* Main.storyboard */; };
+		BAAB886023646A7700A4E535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAB885F23646A7700A4E535 /* Assets.xcassets */; };
+		BAAB886323646A7700A4E535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB886123646A7700A4E535 /* LaunchScreen.storyboard */; };
+		BAAB886E23646A7700A4E535 /* BeaconSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB886D23646A7700A4E535 /* BeaconSystemTests.swift */; };
+		BAAB887923646A7700A4E535 /* BeaconSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB887823646A7700A4E535 /* BeaconSystemUITests.swift */; };
+		BAEB5E1723A763DE006A583E /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = BAEB5E1623A763DE006A583E /* data.csv */; };
+		BAEB5E1923A76514006A583E /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAEB5E1823A76514006A583E /* data.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAAB886A23646A7700A4E535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAB884D23646A7300A4E535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAB885423646A7300A4E535;
+			remoteInfo = BeaconSystem;
+		};
+		BAAB887523646A7700A4E535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAB884D23646A7300A4E535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAB885423646A7300A4E535;
+			remoteInfo = BeaconSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAA06E0523A2663A00E1D6CE /* beep3_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep3_big.wav; path = ../../se/beep3_big.wav; sourceTree = "<group>"; };
+		BAA06E0623A2663A00E1D6CE /* beep4_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep4_big.wav; path = ../../se/beep4_big.wav; sourceTree = "<group>"; };
+		BAA06E0723A2663A00E1D6CE /* beepex_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beepex_big.wav; path = ../../se/beepex_big.wav; sourceTree = "<group>"; };
+		BAA06E0823A2663A00E1D6CE /* beep5_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep5_big.wav; path = ../../se/beep5_big.wav; sourceTree = "<group>"; };
+		BAA06E0923A2663A00E1D6CE /* beep2_big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep2_big.wav; path = ../../se/beep2_big.wav; sourceTree = "<group>"; };
+		BAAB885523646A7300A4E535 /* BeaconSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAB885823646A7300A4E535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAAB885A23646A7300A4E535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAAB885D23646A7300A4E535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAAB885F23646A7700A4E535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAAB886223646A7700A4E535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAAB886423646A7700A4E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAB886923646A7700A4E535 /* BeaconSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAB886D23646A7700A4E535 /* BeaconSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconSystemTests.swift; sourceTree = "<group>"; };
+		BAAB886F23646A7700A4E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAB887423646A7700A4E535 /* BeaconSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAB887823646A7700A4E535 /* BeaconSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconSystemUITests.swift; sourceTree = "<group>"; };
+		BAAB887A23646A7700A4E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEB5E1623A763DE006A583E /* data.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		BAEB5E1823A76514006A583E /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAB885223646A7300A4E535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB886623646A7700A4E535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB887123646A7700A4E535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAB884C23646A7300A4E535 = {
+			isa = PBXGroup;
+			children = (
+				BAAB885723646A7300A4E535 /* BeaconSystem */,
+				BAAB886C23646A7700A4E535 /* BeaconSystemTests */,
+				BAAB887723646A7700A4E535 /* BeaconSystemUITests */,
+				BAAB885623646A7300A4E535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAB885623646A7300A4E535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB885523646A7300A4E535 /* BeaconSystem.app */,
+				BAAB886923646A7700A4E535 /* BeaconSystemTests.xctest */,
+				BAAB887423646A7700A4E535 /* BeaconSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAB885723646A7300A4E535 /* BeaconSystem */ = {
+			isa = PBXGroup;
+			children = (
+				BAA06E0923A2663A00E1D6CE /* beep2_big.wav */,
+				BAA06E0523A2663A00E1D6CE /* beep3_big.wav */,
+				BAA06E0623A2663A00E1D6CE /* beep4_big.wav */,
+				BAA06E0823A2663A00E1D6CE /* beep5_big.wav */,
+				BAA06E0723A2663A00E1D6CE /* beepex_big.wav */,
+				BAAB885823646A7300A4E535 /* AppDelegate.swift */,
+				BAAB885A23646A7300A4E535 /* ViewController.swift */,
+				BAAB885C23646A7300A4E535 /* Main.storyboard */,
+				BAAB885F23646A7700A4E535 /* Assets.xcassets */,
+				BAAB886123646A7700A4E535 /* LaunchScreen.storyboard */,
+				BAAB886423646A7700A4E535 /* Info.plist */,
+				BAEB5E1623A763DE006A583E /* data.csv */,
+				BAEB5E1823A76514006A583E /* data.txt */,
+			);
+			path = BeaconSystem;
+			sourceTree = "<group>";
+		};
+		BAAB886C23646A7700A4E535 /* BeaconSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB886D23646A7700A4E535 /* BeaconSystemTests.swift */,
+				BAAB886F23646A7700A4E535 /* Info.plist */,
+			);
+			path = BeaconSystemTests;
+			sourceTree = "<group>";
+		};
+		BAAB887723646A7700A4E535 /* BeaconSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB887823646A7700A4E535 /* BeaconSystemUITests.swift */,
+				BAAB887A23646A7700A4E535 /* Info.plist */,
+			);
+			path = BeaconSystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAB885423646A7300A4E535 /* BeaconSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAB887D23646A7700A4E535 /* Build configuration list for PBXNativeTarget "BeaconSystem" */;
+			buildPhases = (
+				BAAB885123646A7300A4E535 /* Sources */,
+				BAAB885223646A7300A4E535 /* Frameworks */,
+				BAAB885323646A7300A4E535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconSystem;
+			productName = BeaconSystem;
+			productReference = BAAB885523646A7300A4E535 /* BeaconSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAAB886823646A7700A4E535 /* BeaconSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAB888023646A7700A4E535 /* Build configuration list for PBXNativeTarget "BeaconSystemTests" */;
+			buildPhases = (
+				BAAB886523646A7700A4E535 /* Sources */,
+				BAAB886623646A7700A4E535 /* Frameworks */,
+				BAAB886723646A7700A4E535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAB886B23646A7700A4E535 /* PBXTargetDependency */,
+			);
+			name = BeaconSystemTests;
+			productName = BeaconSystemTests;
+			productReference = BAAB886923646A7700A4E535 /* BeaconSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAAB887323646A7700A4E535 /* BeaconSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAB888323646A7700A4E535 /* Build configuration list for PBXNativeTarget "BeaconSystemUITests" */;
+			buildPhases = (
+				BAAB887023646A7700A4E535 /* Sources */,
+				BAAB887123646A7700A4E535 /* Frameworks */,
+				BAAB887223646A7700A4E535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAB887623646A7700A4E535 /* PBXTargetDependency */,
+			);
+			name = BeaconSystemUITests;
+			productName = BeaconSystemUITests;
+			productReference = BAAB887423646A7700A4E535 /* BeaconSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAB884D23646A7300A4E535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = shiro;
+				TargetAttributes = {
+					BAAB885423646A7300A4E535 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BAAB886823646A7700A4E535 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BAAB885423646A7300A4E535;
+					};
+					BAAB887323646A7700A4E535 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BAAB885423646A7300A4E535;
+					};
+				};
+			};
+			buildConfigurationList = BAAB885023646A7300A4E535 /* Build configuration list for PBXProject "BeaconSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAAB884C23646A7300A4E535;
+			productRefGroup = BAAB885623646A7300A4E535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAB885423646A7300A4E535 /* BeaconSystem */,
+				BAAB886823646A7700A4E535 /* BeaconSystemTests */,
+				BAAB887323646A7700A4E535 /* BeaconSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAB885323646A7300A4E535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA06E0E23A2663A00E1D6CE /* beep2_big.wav in Resources */,
+				BAA06E0D23A2663A00E1D6CE /* beep5_big.wav in Resources */,
+				BAA06E0C23A2663A00E1D6CE /* beepex_big.wav in Resources */,
+				BAAB886323646A7700A4E535 /* LaunchScreen.storyboard in Resources */,
+				BAEB5E1923A76514006A583E /* data.txt in Resources */,
+				BAA06E0A23A2663A00E1D6CE /* beep3_big.wav in Resources */,
+				BAA06E0B23A2663A00E1D6CE /* beep4_big.wav in Resources */,
+				BAAB886023646A7700A4E535 /* Assets.xcassets in Resources */,
+				BAAB885E23646A7300A4E535 /* Main.storyboard in Resources */,
+				BAEB5E1723A763DE006A583E /* data.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB886723646A7700A4E535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB887223646A7700A4E535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAB885123646A7300A4E535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB885B23646A7300A4E535 /* ViewController.swift in Sources */,
+				BAAB885923646A7300A4E535 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB886523646A7700A4E535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB886E23646A7700A4E535 /* BeaconSystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAB887023646A7700A4E535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAB887923646A7700A4E535 /* BeaconSystemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAAB886B23646A7700A4E535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAB885423646A7300A4E535 /* BeaconSystem */;
+			targetProxy = BAAB886A23646A7700A4E535 /* PBXContainerItemProxy */;
+		};
+		BAAB887623646A7700A4E535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAB885423646A7300A4E535 /* BeaconSystem */;
+			targetProxy = BAAB887523646A7700A4E535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAAB885C23646A7300A4E535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAB885D23646A7300A4E535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAAB886123646A7700A4E535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAB886223646A7700A4E535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAB887B23646A7700A4E535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAAB887C23646A7700A4E535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAB887E23646A7700A4E535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPHNAWHH24;
+				INFOPLIST_FILE = BeaconSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmc.BeaconSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAAB887F23646A7700A4E535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPHNAWHH24;
+				INFOPLIST_FILE = BeaconSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmc.BeaconSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAAB888123646A7700A4E535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPHNAWHH24;
+				INFOPLIST_FILE = BeaconSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmc.BeaconSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaconSystem.app/BeaconSystem";
+			};
+			name = Debug;
+		};
+		BAAB888223646A7700A4E535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPHNAWHH24;
+				INFOPLIST_FILE = BeaconSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmc.BeaconSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaconSystem.app/BeaconSystem";
+			};
+			name = Release;
+		};
+		BAAB888423646A7700A4E535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPHNAWHH24;
+				INFOPLIST_FILE = BeaconSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmc.BeaconSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeaconSystem;
+			};
+			name = Debug;
+		};
+		BAAB888523646A7700A4E535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPHNAWHH24;
+				INFOPLIST_FILE = BeaconSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmc.BeaconSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeaconSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAB885023646A7300A4E535 /* Build configuration list for PBXProject "BeaconSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB887B23646A7700A4E535 /* Debug */,
+				BAAB887C23646A7700A4E535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAB887D23646A7700A4E535 /* Build configuration list for PBXNativeTarget "BeaconSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB887E23646A7700A4E535 /* Debug */,
+				BAAB887F23646A7700A4E535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAB888023646A7700A4E535 /* Build configuration list for PBXNativeTarget "BeaconSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB888123646A7700A4E535 /* Debug */,
+				BAAB888223646A7700A4E535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAB888323646A7700A4E535 /* Build configuration list for PBXNativeTarget "BeaconSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAB888423646A7700A4E535 /* Debug */,
+				BAAB888523646A7700A4E535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAB884D23646A7300A4E535 /* Project object */;
+}
